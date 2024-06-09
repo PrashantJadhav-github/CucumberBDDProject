@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="5" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-09T18:27:26 IST" name="Suite" finished-at="2024-06-09T18:29:01 IST" duration-ms="94280">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.Runner@401f7633]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-06-09T18:27:26 IST" name="Test" finished-at="2024-06-09T18:29:01 IST" duration-ms="94280">
+      <class name="TestRunner.Runner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:TestRunner.Runner@401f7633]" started-at="2024-06-09T18:27:26 IST" name="setUpClass" finished-at="2024-06-09T18:27:28 IST" duration-ms="1460" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1332dec4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.Runner@401f7633]" started-at="2024-06-09T18:27:28 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-06-09T18:27:55 IST" duration-ms="26818" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add New Customer"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Customer"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.Runner@401f7633]" started-at="2024-06-09T18:27:55 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-06-09T18:28:12 IST" duration-ms="17434" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search Customer by Email"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Customer"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.Runner@401f7633]" started-at="2024-06-09T18:28:12 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-06-09T18:28:30 IST" duration-ms="18313" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search Customer by Name"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Customer"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.Runner@401f7633]" started-at="2024-06-09T18:28:30 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-06-09T18:28:42 IST" duration-ms="11893" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successful Login with Valid Credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.Runner@401f7633]" started-at="2024-06-09T18:28:42 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-06-09T18:28:54 IST" duration-ms="11877" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successful Login with Valid Credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.Runner@401f7633]" started-at="2024-06-09T18:28:54 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-06-09T18:29:00 IST" duration-ms="6300" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successful Login with Valid Credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError
+at org.junit.Assert.fail(Assert.java:86)
+at org.junit.Assert.assertTrue(Assert.java:41)
+at org.junit.Assert.assertTrue(Assert.java:52)
+at StepDefinition.StepDefinitionFile.page_title_should_be(StepDefinitionFile.java:76)
+at ✽.Page Title should be "Dashboard / nopCommerce administration"(file:///E:/eclipse-workspace/CucumberFramework/./Features/LoginFeature.feature:18)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:TestRunner.Runner@401f7633]" started-at="2024-06-09T18:29:00 IST" name="tearDownClass" finished-at="2024-06-09T18:29:01 IST" duration-ms="43" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- TestRunner.Runner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
